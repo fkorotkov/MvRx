@@ -35,7 +35,8 @@ import com.airbnb.mvrx.todomvrx.views.addEditView
 import com.airbnb.mvrx.withState
 import kotlinx.android.parcel.Parcelize
 
-
+// todo: remove after https://youtrack.jetbrains.com/issue/KT-19300 is fixed
+@SuppressLint("ParcelCreator")
 @Parcelize
 data class AddEditTaskArgs(val id: String? = null) : Parcelable
 

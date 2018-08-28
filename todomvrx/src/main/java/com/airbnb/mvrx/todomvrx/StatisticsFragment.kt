@@ -9,6 +9,8 @@ import com.airbnb.mvrx.todomvrx.util.simpleController
 import com.airbnb.mvrx.todomvrx.views.statisticsView
 import com.airbnb.mvrx.withState
 
+// todo: remove after https://youtrack.jetbrains.com/issue/KT-26464 is fixed
+@SuppressLint("StringFormatMatches")
 class StatisticsFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
